@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+}
+.playing-nine-area {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 25%;
+  min-height: 100vh;
+  background-color: rgb(235, 240, 242);
+}
+
+.users-info {
+  width: 75%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.users-info h5 {
+  color: blue;
+  margin-bottom: 30px;
+}
+
+.playing-nine-area h6 {
+  text-align: center;
+  color: #929292;
+}
+
+@media only screen and (max-width: 850px) {
+  .playing-nine-area {
+    width: 40%;
+  }
+}

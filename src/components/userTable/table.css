@@ -1,0 +1,26 @@
+tr img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+th {
+  background-color: rgb(228, 228, 228);
+  text-transform: uppercase;
+}
+
+[type='checkbox'].filled-in:checked + span:not(.lever)::after {
+  background-color: blue !important;
+  border: 0px !important;
+}
+
+.fa-chevron-up,
+.fa-chevron-down,
+.fa-dollar-sign,
+.fa-medal {
+  margin-left: 10px;
+}
+
+.fa-dollar-sign,
+.fa-medal {
+  color: rgb(139, 139, 60);
+}

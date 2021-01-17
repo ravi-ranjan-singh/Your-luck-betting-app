@@ -1,0 +1,8 @@
+.input-field {
+  width: 35%;
+}
+
+.input-field i {
+  color: rgb(190, 190, 190);
+  font-size: 25px !important;
+}
