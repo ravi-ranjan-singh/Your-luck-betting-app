@@ -16,7 +16,6 @@ const BettingArea = ({ users: usersList, history, setPlayingUsers }) => {
     setTimeout(() => {
       setLoadBet(true);
     }, 2000);
-    setOppBet(random());
     const playingUsers = users.map((user) => {
       if (parseInt(user.Bet) === oppBet) {
         user.win = true;
