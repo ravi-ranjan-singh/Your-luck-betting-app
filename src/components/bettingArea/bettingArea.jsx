@@ -5,6 +5,7 @@ import dice from './../../assets/dice-ani.gif';
 import './bettingArea.css';
 
 const BettingArea = ({ users: usersList, history, setPlayingUsers }) => {
+    // eslint-disable-next-line no-unused-vars
   const [oppBet, setOppBet] = useState(random());
   const [rowOneUsers, setRowOneUsers] = useState([]);
   const [rowTwoUsers, setRowTwoUsers] = useState([]);
